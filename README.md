@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# PowerPoint-Like Presentation App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web-based PowerPoint-like application built with **React.js**, **Material UI**, and **Bootstrap** that allows users to create, edit, and manage slides. It also supports exporting presentations as **SCORM packages**.
 
-## Available Scripts
+## 🚀 Features
+- **Slide Creation & Deletion**
+- **Rich Text Formatting** (Bold, Italic, Underline)
+- **Image Upload & Display**
+- **Slide Navigation**
+- **Local Storage Support** (Saves slides automatically)
+- **SCORM Export** (Export presentations as SCORM packages)
+- **Responsive UI** (Optimized for all devices)
 
-In the project directory, you can run:
+## 🛠 Tech Stack
+- **React.js** (Frontend)
+- **Material UI** & **Bootstrap** (UI Components & Styling)
+- **SCORM Package Generator** (SCORM Export Functionality)
+- **LocalStorage API** (Data Persistence)
 
-### `npm start`
+---
+## 📦 Installation & Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/AnantTiwari18/ppt-app.git
+   cd ppt-app
+   ```
+2. **Install Dependencies**
+   ```sh
+   npm install
+   ```
+3. **Run the Development Server**
+   ```sh
+   npm start
+   ```
+   The app will be available at `http://localhost:3000/`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
+## 🛠 Usage
+1. Click **Add Slide** to create a new slide.
+2. Click on a slide in the list to **edit** it.
+3. Use the **text formatting buttons** (B, I, U) to format text.
+4. Upload images to **enhance slides**.
+5. Click **Export SCORM** to download a SCORM-compatible package.
 
-### `npm test`
+---
+## 🚀 Deployment (GitHub Pages)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **Deploying the App to GitHub Pages**
+1. **Build the Project:**
+   ```sh
+   npm run build
+   ```
+2. **Deploy to GitHub Pages:**
+   ```sh
+   npm run deploy
+   ```
+3. **Visit the App at:**  
+   `https://AnantTiwari18.github.io/ppt-app`
 
-### `npm run build`
+---
+## 🧪 Testing
+- **Unit Testing:** Jest & React Testing Library
+- **Integration Testing:** Ensuring data flows correctly between components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run tests:
+```sh
+npm test
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+## 🤝 Contributing
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit changes (`git commit -m "Added new feature"`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Open a Pull Request.
 
-### `npm run eject`
+---
+## 📜 License
+This project is licensed under the **MIT License**.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
+## 📩 Contact
+For any issues or improvements, feel free to open an issue or reach out.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📧 Email: ananttiwari187@gmail.com  
+🔗 GitHub: [AnantTiwari18](https://github.com/AnantTiwari18)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
